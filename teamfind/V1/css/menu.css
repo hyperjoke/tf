@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+  owerflow: hidden;
+}
+
+.ni-link { /*Class that fixes auto-coloring links*/
+	color:black;
+}
+
+.fixed { /*Atni scrooling class - da ostane menu na mesto, neglede na scrolanje*/
+	position: fixed;
+}
+
+/* ################### ZGORNJI MENI ########################*/
+.menu-up-left { /*zgornji meni (slika + login)*/
+	height: 45px;
+	width: 380px;
+	border-radius: 0px 0px 0px 15px;
+	background-color: #FFCC73;
+	
+}
+span.logo { /*okvir s skiko*/
+	height:45px;
+	width:79%;
+	background-image:url('../res/logo.png');
+	float:right;
+	display:inline-block;
+	 background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center; 
+}
+.menu-login{ /* gumb login v zgornjem meniju*/
+	text-align:center;
+	vertical-align: middle;
+	line-height: 45px;
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	width:20%;
+	height:45px;
+	cursor: pointer;
+	border-radius: 0px 0px 0px 15px;
+	color: black;
+}
+
+/* ################### Črta na desni ########################*/
+.menu-r { /* Črta na desni*/
+	height: 100%;
+	width: 5px;
+	border-radius: 0px 0px 0px 15px;
+	background-color: #FFCC73;
+}
+
+
+.btn{
+	background-color: #FFB83D;
+	
+}
+.btn:hover{
+	background-color: #FF9000;
+	
+}
+.menu {
+	right: 0px;
+	margin-left:auto;
+	margin-right:0;
+	position:absolute;
+}
+
+/* ################### SPODNJI MENI ########################*/
+
+.menu-dwn {
+	height: 45px;
+	width: 54%;
+	bottom:0px;
+	margin-top:auto;
+	margin-bottom:0;
+	border-radius: 15px 0px 0px 0px;
+	background-color: #FFCC73;
+}
+
+
+/*CREATE / JOIN / PROFILE buttons*/
+
+.bot-btn {
+	display: inline;
+	background-color: #FFB83D;
+	vertical-align: middle;
+	line-height: 45px;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	height:45px;
+	cursor: pointer;
+	width:33.3%;
+	float:left;
+	
+}
+.join{
+	border-radius: 15px 0px 0px 0px;
+}
+/* Animacija za buttone, ko se hovera*/
+.join:hover{
+	background-color: #FF9000;
+	
+}
+.profile:hover{
+	background-color: #fa7905;
+}
+.create:hover{
+	background-color: #fa4f05;
+}
+
+
